@@ -1,0 +1,365 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	width: 100%;
+	height: 1200px;
+
+}
+
+#containerdeals {
+	width: 100%;
+	height: 900px;
+}
+
+#containercontact {
+	width: 100%;
+	height: 900px;
+	background-image: url(../_img/contact.png);
+}
+/*------------
+| Masthead
+------------*/
+#masthead {
+	position: relative;
+	height: 60px;
+	width: 100%;
+	background-color: #29292a;
+}
+
+#masthead img.logo {
+	position: absolute;
+	left: 810px;
+	top: 5px;
+
+}
+#masthead nav.masthead {
+	position: absolute;
+  	left: 620px;
+ 	bottom: 20px;
+    word-spacing: 531px;
+
+}
+
+#masthead nav.masthead a{	
+	text-decoration: none;
+	color: #F5EFE4;
+	font-weight: bold;
+	font-family: 'dinbold', sans-serif;
+	font-size: 20px;
+
+}
+
+#masthead nav.user {
+	position: absolute;
+	left: 0px;
+	top: 43px;
+	color: #979595;
+}
+
+/*------------
+| Main
+------------*/
+
+.main {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-image: url(../_img/mainbg.png);
+}
+
+.main img {
+	position: absolute;
+  	top: 191px;
+  	left: 600px;
+}
+
+.main p {
+	padding: 0px;
+ 	margin: 0px;
+ 	color: #F5EFE4;
+ 	font-family: 'dinbold', sans-serif;
+ 	
+ 	position: absolute;
+ 	left: 725px;
+ 	top: 350px;
+}
+
+.main p.second {
+	padding: 0px;
+	margin: 0px;
+ 	color: #F5EFE4;
+ 	font-family: 'dinbold', sans-serif;
+ 	position: absolute;
+ 	
+ 	left: 868px;
+ 	top: 372px;
+ 	font-size: 20px;
+}
+
+/*------------
+| Menu
+------------*/
+
+.menu {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-image: url(../_img/MENU.png);
+}
+
+.menu img {
+	position: absolute;
+	top: 30px;
+	left: 600px;
+}
+
+.menu p {
+	padding: 0px;
+	margin: 0px;
+	color: #F5EFE4;
+	font-family: 'dinbold', sans-serif;
+	font-weight: lighter;
+}
+
+.menu p.burgersMenu {
+	position: absolute;
+ 	left: 400px;
+ 	top: 200px;
+
+ 	line-height: 20px;
+ 	width: 225px;
+
+ 	position: absolute;
+ 	left: 400px;
+ 	top: 175px;
+
+}
+
+.menu p.burgers {
+	font-size: 20px;
+	font-family: 'dinbold', sans-serif;
+
+	position: absolute;
+ 	left: 400px;
+ 	top: 150px;
+}
+
+.menu p.drinksMenu {
+	position: absolute;
+ 	left: 400px;
+ 	top: 200px;
+
+ 	line-height: 20px;
+ 	width: 220px;
+
+ 	position: absolute;
+ 	left: 880px;
+ 	top: 175px;
+
+}
+
+.menu p.drinks {
+	font-size: 20px;
+	font-weight: bold;
+
+	position: absolute;
+ 	left: 880px;
+ 	top: 150px;
+}
+
+.menu p.stuffMenu {
+	position: absolute;
+ 	left: 400px;
+ 	top: 200px;
+
+ 	line-height: 20px;
+ 	width: 200px;
+
+ 	position: absolute;
+ 	left: 1400px;
+ 	top: 175px;
+
+}
+
+.menu p.stuff {
+	font-size: 20px;
+	font-weight: bold;
+
+	position: absolute;
+ 	left: 1400px;
+ 	top: 150px;
+}
+
+/*------------
+| Deals
+------------*/
+
+.deals {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-image: url(../_img/deals.png);
+
+	background-position: center;
+}
+
+.deals img {
+	position: absolute;
+	top: 30px;
+	left: 600px;
+}
+
+.deals p {
+	padding: 0px;
+	margin: 0px;
+	color: #F5EFE4;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+.deals p.deal1Menu {
+	position: absolute;
+ 	left: 400px;
+ 	top: 200px;
+
+ 	line-height: 20px;
+ 	width: 225px;
+
+ 	position: absolute;
+ 	left: 400px;
+ 	top: 175px;
+
+}
+
+.deals p.deal1 {
+	font-size: 20px;
+	font-weight: bold;
+
+	position: absolute;
+ 	left: 400px;
+ 	top: 150px;
+}
+
+.deals p.deal2Menu {
+	position: absolute;
+ 	left: 400px;
+ 	top: 200px;
+
+ 	line-height: 20px;
+ 	width: 225px;
+
+ 	position: absolute;
+ 	left: 880px;
+ 	top: 175px;
+
+}
+
+.deals p.deal2 {
+	font-size: 20px;
+	font-weight: bold;
+
+	position: absolute;
+ 	left: 880px;
+ 	top: 150px;
+}
+
+.deals p.deal3Menu {
+	position: absolute;
+ 	left: 400px;
+ 	top: 200px;
+
+ 	line-height: 20px;
+ 	width: 200px;
+
+ 	position: absolute;
+ 	left: 1400px;
+ 	top: 175px;
+
+}
+
+.deals p.deal3 {
+	font-size: 20px;
+	font-weight: bold;
+
+	position: absolute;
+ 	left: 1400px;
+ 	top: 150px;
+}
+
+/*-----------------
+| Contact
+-----------------*/
+.address {
+	position: relative;
+	width: 100%;
+	height: 900px;
+	background-image: url(../_img/contact.png);
+}
+
+.address img {
+	position: absolute;
+	top: 30px;
+	left: 600px;
+}
+
+.address p {
+	padding: 0px;
+  	margin: 0px;
+ 	color: #F5EFE4;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 34px;
+}
+
+.address p.address1 {
+ 	line-height: 20px;
+ 	width: 225px;
+
+ 	position: absolute;
+ 	left: 600px;
+ 	top: 195px;
+
+}
+
+.address p.address2 {
+	font-weight: bold;
+	position: absolute;
+ 	left: 600px;
+ 	top: 210px;
+ 	font-size: 72px;
+}
+
+.address p.address3 {
+  font-weight: lighter;
+  position: absolute;
+  left: 600px;
+  top: 284px;
+  font-size: 22px;
+}
+
+.number > p.number1 {
+ 	line-height: 20px;
+ 	width: 225px;
+
+ 	position: absolute;
+ 	left: 600px;
+ 	top: 2300px;
+
+ 	color: #fff;
+ 	font-family: sans-serif;
+
+}
+
+.number > p.number2 {
+	font-weight: bold;
+	position: absolute;
+ 	left: 600px;
+ 	top: 2260px;
+ 	font-size: 72px;
+ 	font-family: sans-serif;
+
+ 	color: #fff;
+}
